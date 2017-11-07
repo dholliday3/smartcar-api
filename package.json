@@ -1,0 +1,21 @@
+{
+    "name": "Smartcar-API",
+    "version": "1.0.0",
+    "description": "Smartcar api that layers the gm api with a more structured format.",
+    "main": "server.js",
+    "author": "Daniel Holliday",
+    "license": "MIT",
+    "dependencies": {
+        "body-parser": "^1.13.2",
+        "config": "^1.20.1",
+        "express": "^4.13.1",
+        "request": "^2.83.0"
+    },
+    "devDependencies": {
+        "chai": "^4.1.2",
+        "mocha": "^4.0.1",
+        "should": "^13.1.3",
+        "supertest": "^3.0.0"
+    },
+    "test": "NODE_ENV=tests mocha - timeout 10000"
+}
