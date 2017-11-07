@@ -32,7 +32,7 @@ var router = express.Router(); //instance of express Router
 // should probably handle errors
 router.use(function(req, res, next) {
     //log
-    //console.log('The api was called.');
+    console.log('The api was called.');
     next();
 });
 
