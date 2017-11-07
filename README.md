@@ -17,11 +17,11 @@ mocha
 ## Smartcar REST Calls
 
 ### Vehicle Info
-##### Request: 
+#### Request: 
 ```
 GET /vehicles/:id
 ``` 
-##### Response: 
+#### Response: 
 ```
 {
   "vin": "1213231",
@@ -31,11 +31,11 @@ GET /vehicles/:id
 }
 ``` 
 ### Security 
-##### Request: 
+#### Request: 
 ```
 GET /vehicles/:id/doors
 ```
-##### Response: 
+#### Response: 
 ```
 [
   {
@@ -49,29 +49,29 @@ GET /vehicles/:id/doors
 ]
 ```
 ### Fuel Range 
-##### Request: 
+#### Request: 
 ```
 GET /vehicles/:id/fuel
 ```
-##### Response:
+#### Response:
 ```
 {
   "percent": 30
 }
 ```
 ### Battery Range 
-##### Request: 
+#### Request: 
 ```
 GET /vehicles/:id/battery
 ```
-##### Response: 
+#### Response: 
 ```
 {
   "percent": 50
 }
 ```
 ### Start/Stop Engine 
-##### Request: 
+#### Request: 
 ```
 POST /vehicles/:id/engine
 Content-Type: application/json
@@ -80,7 +80,7 @@ Content-Type: application/json
   "action": "START|STOP"
 }
 ```
-##### Response: 
+#### Response: 
 ```
 {
   "status": "success|error"
