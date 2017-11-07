@@ -65,6 +65,6 @@ app.use('/vehicles', router); // routes use /vehicles prefix
 // START SERVER
 // ==================================================================
 //app.listen(port);
-console.log('Yuhhhh, server happening on this port: ' + port);
+console.log('Server happening on this port: ' + port);
 
 module.exports = app;
